@@ -7,12 +7,15 @@ def binario_a_decimal(cadena_binaria: str) -> int:
             resultado =resultado + 2**(i)
     return resultado
 
+
 def oct_to_decimal(cadena_octal: str) -> int:
     resultado = 0
     longitud: int = len(cadena_octal)
     for i in range(longitud):
-        resultado += int(cadena_octal[longitud-i-1]) * 8**i
+        resultado += (ord(cadena_octal[longitud-i-1]) - ord('0')) * 8**i
     return resultado
+
+
 
 def hex_to_decimal(cadena_hex: str) -> int:
     resultado = 0
@@ -24,3 +27,4 @@ def hex_to_decimal(cadena_hex: str) -> int:
         elif 'A' <= digito <= 'F':
             resultado += (ord(digito) - ord('A') + 10) * 16**i
     return resultado
+
