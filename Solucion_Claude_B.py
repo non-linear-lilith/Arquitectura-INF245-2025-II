@@ -1,10 +1,8 @@
 """
-LABORATORIO 1 - PARTE B
-Arquitectura y Organización de Computadores
-Funciones de conversión de bases a decimal y sistema de desafío
 
-Autor: [Tu nombre aquí]
-Fecha: Agosto 2025
+ESTO LO USO COMO GUIA, AUNQUE LA VERDAD ES QUE TIENE HARTOS FALLOS
+ANTES DE ENTREGAR EL PROGRAMA LO VOY A BORRAR OBVIAMENTE
+
 """
 
 import random
