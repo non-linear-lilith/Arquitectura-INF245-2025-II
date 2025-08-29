@@ -16,20 +16,20 @@ def GenerarRandom(numero1, numero2):
 #
 # Nombre: Firewall
 # Input: Ninguno
-# Resumen: Genera un número entero aleatorio entre 1 y 64 y lo convierte a su representación binaria.
+# Resumen: Genera un número entero aleatorio entre 1 y 63 y lo convierte a su representación binaria.
 # Output: El número binario (string)
 #
 def Firewall():
-    numero = GenerarRandom(1, 64)
+    numero = GenerarRandom(1, 63)
     return DecimalBinario(numero)
 #
 # Nombre: Servidor
 # Input: Ninguno
-# Resumen: Genera un numero entero aleatorio entre 1 y 512 y lo convierte a su representacion octal.
+# Resumen: Genera un numero entero aleatorio entre 1 y 511 y lo convierte a su representacion octal.
 # Output: El numero octal (string)
 #
 def Servidor():
-    numero = GenerarRandom(1, 512)
+    numero = GenerarRandom(1, 511)
     return DecimalOctal(numero)
 #
 # Nombre: Memoria
