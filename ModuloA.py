@@ -62,19 +62,18 @@ def DecimalHexadecimal(numero):
     return numeorHexadecimal
 
 
-
-print("Inicio del juego")
-print("elije el modo de juego")
-print("1. Firewall" \
-"2. Servidor" \
-"3. Memoria")
-modo = input("opcion: ")
-if modo == "1":
-    print("El código es:", Firewall())
-elif modo == "2":
-    print("El código es:", Servidor())
-elif modo == "3":
-    print("El código es:", Memoria())
-else:
-    print("Modo de juego no válido.")
-
+##*
+# print("Inicio del juego")
+# print("elije el modo de juego")
+# print("1. Firewall" \
+# "2. Servidor" \
+# "3. Memoria")
+# modo = input("opcion: ")
+# if modo == "1":
+#     print("El código es:", Firewall())
+# elif modo == "2":
+#     print("El código es:", Servidor())
+# elif modo == "3":
+#     print("El código es:", Memoria())
+# else:
+#     print("Modo de juego no válido.")
